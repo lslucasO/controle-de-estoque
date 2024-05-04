@@ -6,6 +6,7 @@ header{
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.167);
     padding: 20px;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 nav.link-container{

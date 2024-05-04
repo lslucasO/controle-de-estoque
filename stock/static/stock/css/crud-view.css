@@ -1,0 +1,43 @@
+main{
+    margin: auto;
+    max-width: 1000px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.378);
+}
+
+table{ 
+    border-spacing: 15px;
+    text-align: center;
+}
+
+table.table-items{
+    width: 1000px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.273);
+    
+}
+
+th, #tamanho, #cor, #quantidade, #preco{
+}
+
+div.crud-title-container{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+}
+
+section.table-items-container{
+    height: 300px;
+}
+
+
+
+input.btn-input{
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input.btn-input:hover{
+    cursor: pointer;
+}
