@@ -5,6 +5,7 @@ main{
 }
 
 table{ 
+    padding: 5px;
     border-spacing: 15px;
     text-align: center;
 }
@@ -16,7 +17,8 @@ table.table-items{
     
 }
 
-th, #tamanho, #cor, #quantidade, #preco{
+td{
+    width: 120px;
 }
 
 div.crud-title-container{
