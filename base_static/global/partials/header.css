@@ -1,0 +1,30 @@
+header{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.167);
+    padding: 10px;
+    justify-content: space-between;
+}
+
+nav.link-container{
+    display: flex;
+    gap: 10px;
+}
+
+a.link{
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+a.link:hover{
+    cursor: pointer;
+}
+
+h1.header-title{
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+}

@@ -1,4 +1,8 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'global/partials/home.html')
+    context = {
+        'title': 'Home'
+    }
+    
+    return render(request, 'global/partials/home.html', context)
