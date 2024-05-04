@@ -4,7 +4,7 @@ header{
     height: 100px;
     background-color: blue;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.167);
-    padding: 10px;
+    padding: 20px;
     justify-content: space-between;
 }
 
@@ -21,10 +21,15 @@ a.link{
 
 a.link:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 h1.header-title{
     color: white;
     font-size: 1.7em;
     font-weight: bold;
+}
+
+h1.header-title:hover{
+    cursor: pointer;
 }
