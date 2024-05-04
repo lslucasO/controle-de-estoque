@@ -12,6 +12,7 @@ table{
 table.table-items{
     width: 1000px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.273);
+    border-top: 1px solid rgba(0, 0, 0, 0.273);
     
 }
 
@@ -31,13 +32,29 @@ section.table-items-container{
 }
 
 
-
-input.btn-input{
+input{
+    border: none;
     width: 100px;
+    height: 35px;
     border-radius: 5px;
     padding: 5px;
 }
 
-input.btn-input:hover{
+input:hover{
     cursor: pointer;
+}
+
+input#btn-remover{
+    background-color: red;
+    color: white;
+}
+
+input#btn-consultar{
+    background-color: blue;
+    color: white;
+}
+
+input#btn-editar{
+    background-color: green;
+    color: white;
 }
