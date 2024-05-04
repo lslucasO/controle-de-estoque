@@ -4,6 +4,10 @@ main{
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.378);
 }
 
+img:hover{
+    cursor: pointer;
+}
+
 table{ 
     padding: 5px;
     border-spacing: 15px;
@@ -59,4 +63,27 @@ input#btn-consultar{
 input#btn-editar{
     background-color: green;
     color: white;
+}
+
+
+.menu-item{
+    background: blue;
+    height: 100%;
+    transition: all 0.5s;
+    width: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+a.item{
+    
+    color: white;
+    text-decoration: none;
 }

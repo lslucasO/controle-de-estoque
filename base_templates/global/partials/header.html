@@ -2,12 +2,17 @@
 <link rel="stylesheet" href="{% static 'global/partials/header.css' %}">
 
 <header>
+    <img onclick="appear()" src="{% static 'global/img/menu-img.png' %}" alt="" class="img-menu">
+  
     <h1 class="header-title" onclick="alertaUsuario()">Controle de Estoque</h1>
     <figure class="img-container">
         <img src="#" alt="" class="img">
     </figure>
-    <nav class="link-container">
-        <a href="" class="link">Link</a>
-        <a href="" class="link">Link</a>
-    </nav>
+
+    <div class="menu-item">
+        <a id="disappear" onclick="disappear()" href="#" class="item">XQWEQWE</a>
+        <a href="#" class="item">Cadastrar</a>
+        <a href="#" class="item">Sobre</a>
+    </div>
+    
 </header>
