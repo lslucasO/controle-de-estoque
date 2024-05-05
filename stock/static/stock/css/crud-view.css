@@ -8,6 +8,11 @@ img:hover{
     cursor: pointer;
 }
 
+img{
+    height: 35px;
+    width: 35px;
+}
+
 table{ 
     padding: 5px;
     border-spacing: 15px;
@@ -66,24 +71,3 @@ input#btn-editar{
 }
 
 
-.menu-item{
-    background: blue;
-    height: 100%;
-    transition: all 0.5s;
-    width: 0;
-    left: 0;
-    overflow: hidden;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-
-
-a.item{
-    
-    color: white;
-    text-decoration: none;
-}
