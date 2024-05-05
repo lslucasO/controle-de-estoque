@@ -55,19 +55,20 @@ input:hover{
     cursor: pointer;
 }
 
+#btn-remover, #btn-consultar, #btn-editar{
+    color: white;
+}
+
 input#btn-remover{
     background-color: red;
-    color: white;
 }
 
 input#btn-consultar{
     background-color: blue;
-    color: white;
 }
 
 input#btn-editar{
     background-color: green;
-    color: white;
 }
 
 
