@@ -26,10 +26,25 @@
 
                     <td><input  id="btn-consultar"  type="button" value="Consultar"></td>
                     <td><input id="btn-editar" type="button" value="Editar"></td>
-                    <td><input onclick="" id="btn-remover" type="button" value="Remover"></td>
+                    <td><input onclick="remover()" id="btn-remover" type="button" value="Remover"></td>
                 </tr>  
+
+                <div id="remove" class="modal">
+                    <section>
+                        <h3 class="modal-title">Remover Produto</h3>
+                    </section>
+                    <p class="modal-description">Você não poderá desfazer essa ação!</p>
+                    <input type="button" value="Remover">
+                    <input type="button" value="Cancelar">
+                </div>
+                
             </tbody>
         </table>
     </section>
+
+
+    
+    
+
     <script src="{% static 'stock/js/modal.js' %}"></script>
 </main>

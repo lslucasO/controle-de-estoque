@@ -72,3 +72,7 @@ input#btn-editar{
 }
 
 
+section .modal-title{
+    background-color: blue;
+    color: white;
+}
